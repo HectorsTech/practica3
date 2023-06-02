@@ -3,4 +3,42 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: rgb(224, 232, 255,255);
+    text-align: center;
 }
+
+img.principal {
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+div.contenedor { 
+    background-color: #fff;
+    margin: 160px;
+    padding: 44px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px hsl(228, 45%, 44%, .15);
+
+}
+
+div.promo > h4, div.promo > p, div.promo > button {
+    display: inline-block;
+    
+}
+
+div.promo {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.promo > article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
